@@ -38,6 +38,7 @@
     <!-- Default stylesheets-->
     <link href="assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Template specific stylesheets-->
+	<link href="https://fonts.googleapis.com/css2?family=Megrim&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Volkhov:400i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
@@ -49,6 +50,7 @@
     <link href="assets/lib/owl.carousel/dist/assets/owl.theme.default.min.css" rel="stylesheet">
     <link href="assets/lib/magnific-popup/dist/magnific-popup.css" rel="stylesheet">
     <link href="assets/lib/simple-text-rotator/simpletextrotator.css" rel="stylesheet">
+	
     <!-- Main stylesheet and color file-->
     <link href="assets/css/style.css" rel="stylesheet">
     <link id="color-scheme" href="assets/css/colors/default.css" rel="stylesheet">
@@ -61,40 +63,34 @@
       <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="index.html">Black Raven sl&nbsp;</a>
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="index.html" style="font-family: 'Megrim', cursive;">Black Raven sl&nbsp;</a>
           </div>
           <div class="collapse navbar-collapse" id="custom-collapse">
             <ul class="nav navbar-nav navbar-right">
               <li class="activen section-scroll"><a class="active section-scroll" href="index.html">Home</a>
               </li>
-              <li class="dropdown"><a  class="dropdown-toggle section-scroll"  href="index.html#menwear" data-toggle="dropdown">Clothing</a>
+              <li class="dropdown"><a  class="dropdown-toggle section-scroll"  href="index.html#womenwear" data-toggle="dropdown">Clothing</a>
                 <ul class="dropdown-menu">
-                  <li class="dropdown"><a class="section-scroll" href="index.html#menwear">Men's</a>
+                  <li class="dropdown"><a class="section-scroll" href="index.html#womenwear">For Her</a>
                   </li>
-                  <li class="dropdown"><a class="section-scroll" href="index.html#womenwear">Women's</a>
+                  <li class="dropdown"><a class="section-scroll" href="index.html#menwear">For Him</a>
                   </li>
                 </ul>
               </li>
-              <li class="dropdown"><a class="dropdown-toggle section-scroll" href="index.html#accessories" data-toggle="dropdown">accessories</a>
+              <li class="dropdown"><a class="dropdown-toggle section-scroll" href="index.html#womensaccessories" data-toggle="dropdown">accessories</a>
                 <ul class="dropdown-menu">
-                  <li class="dropdown"><a href="#">Mugs</a>
+                  <li class="dropdown"><a class="section-scroll" href="index.html#womensaccessories">For Her</a>
                   </li>
-                  <li class="dropdown"><a href="#">Jugs</a>
-                  </li>
-                  <li class="dropdown"><a href="#">Rugs</a>
-                  </li>
-                  <li class="dropdown"><a href="#">Hankies</a>
-                  </li>
-                  <li class="dropdown"><a href="#">Diaries</a>
+                  <li class="dropdown"><a class="section-scroll" href="index.html#mensaccessories">For Him</a>
                   </li>
                 </ul>
               </li>
-              <li class="dropdown"><a class="dropdown-toggle section-scroll" href="index.html#mengift" data-toggle="dropdown">Gift Baskets</a>
+              <li class="dropdown"><a class="dropdown-toggle section-scroll" href="index.html#giftbasket" data-toggle="dropdown">Gift Baskets</a>
                 <ul class="dropdown-menu" role="menu">
-                  <li><a class="section-scroll" href="index.html#mengift">For Men</a>
+                  <li><a href="index.html#giftbasket">Gift Baskets</a>
                   </li>
   
-                  <li><a class="section-scroll" href="index.html#womengift">For Women</a>
+                  <li><a class="section-scroll" href="About Us.html#contact">Customize</a>
                   </li>
                 </ul>
               </li>
@@ -105,6 +101,9 @@
                         </ul>
                       </li>
 				<li class="active"><a class="active" href="blog.html">Blog</a></li>
+              <ul class="nav navbar-nav navbar-right">
+        <li><button type="button" class="btn btn-sm navbar-btn cart"><i class="glyphicon glyphicon-shopping-cart" style="margin-right: 3px; font-size:12px;" ></i> <a href="shop_checkout.html" style="margin-right: 3px; font-size: 12px;">View Cart &nbsp;&nbsp;<span style="font-size: 16px; font-weight: bolder;">0</span></a></button></li>
+				</ul>
             </ul>
           </div>
         </div>
@@ -122,92 +121,15 @@
               <div class="col-lg-6">&nbsp;</div>
             </div>
             <hr class="divider-w pt-20">
-            <div class="row">
-              <div class="col-sm-12">
-                <table class="table table-striped table-border checkout-table">
-                  <tbody>
-                    <tr>
-                      <th class="hidden-xs">Item</th>
-                      <th>Description</th>
-                      <th class="hidden-xs">Price</th>
-                      <th>Quantity</th>
-                      <th>Total</th>
-                      <th>Remove</th>
-                    </tr>
-                    <tr>
-                      <td class="hidden-xs"><a href="#"><img src="assets/images/shop/product-14.jpg" alt="Accessories Pack"/></a></td>
-                      <td>
-                        <h5 class="product-title font-alt">Accessories Pack</h5>
-                      </td>
-                      <td class="hidden-xs">
-                        <h5 class="product-title font-alt">£20.00</h5>
-                      </td>
-                      <td>
-                        <input class="form-control" type="number" name="" value="1" max="50" min="1"/>
-                      </td>
-                      <td>
-                        <h5 class="product-title font-alt">£20.00</h5>
-                      </td>
-                      <td class="pr-remove"><a href="#" title="Remove"><i class="fa fa-times"></i></a></td>
-                    </tr>
-                    <tr>
-                      <td class="hidden-xs"><a href="#"><img src="assets/images/shop/product-13.jpg" alt="Men’s Casual Pack"/></a></td>
-                      <td>
-                        <h5 class="product-title font-alt">Men’s Casual Pack</h5>
-                      </td>
-                      <td class="hidden-xs">
-                        <h5 class="product-title font-alt">£20.00</h5>
-                      </td>
-                      <td>
-                        <input class="form-control" type="number" name="" value="1" max="50" min="1"/>
-                      </td>
-                      <td>
-                        <h5 class="product-title font-alt">£20.00</h5>
-                      </td>
-                      <td class="pr-remove"><a href="#" title="Remove"><i class="fa fa-times"></i></a></td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-3">
-                <div class="form-group">
-                  <input class="form-control" type="text" id="" name="" placeholder="Coupon code"/>
-                </div>
-              </div>
-              <div class="col-sm-3">
-                <div class="form-group">
-                  <button class="btn btn-round btn-g" type="submit">Apply</button>
-                </div>
-              </div>
-              <div class="col-sm-3 col-sm-offset-3">
-                <div class="form-group">
-                </div>
+            <div class="row products-container">
+              <div class="col-sm-12 product-header">
+                
               </div>
             </div>
             <hr class="divider-w">
             <div class="row mt-70">
-              <div class="col-sm-5 col-sm-offset-7">
-                <div class="shop-Cart-totalbox">
-                  <h4 class="font-alt">Cart Totals</h4>
-					<form></form>
-                  <table class="table table-striped table-border checkout-table">
-                    <tbody>
-                      <tr>
-                        <th style="width: 50%;">Cart Subtotal :</th>
-                        <td>£40.00</td>
-                      </tr>
-                      <tr>
-                        <th>Shipping Total :</th>
-                        <td>£2.00</td>
-                      </tr>
-                      <tr class="shop-Cart-totalprice">
-                        <th>Total :</th>
-                        <td>£42.00</td>
-                      </tr>
-                    </tbody>
-                  </table>
+              <div class="col-sm-5 col-sm-offset-7" >
+                <div class="shop-Cart-totalbox" id="totz">
                 </div>
               </div>
             </div>
@@ -220,19 +142,23 @@
                     <tbody>
                       <tr>
                         <th style="width: 50%;">Card Number :</th>
-                        <td><input id="ccNo" type="text" value="" autocomplete="off" required /></td>
+                        <td><input id="ccNo" type="text" value="" autocomplete="off" disabled /></td>
                       </tr>
                       <tr>
                         <th>Expiration Date (MM/YYYY):</th>
-                        <td><input id="expMonth" type="text" size="2" required /><span> / </span><input id="expYear" type="text" size="4" required /></td>
+                        <td><input id="expMonth" type="text" size="2" disabled /><span> / </span><input id="expYear" type="text" size="4" disabled /></td>
                       </tr>
                       <tr class="shop-Cart-totalprice">
                         <th>CVC</th>
-                        <td> <input id="cvv" type="text" size="4" value="" autocomplete="off" required /></td>
+                        <td> <input id="cvv" type="text" size="4" value="" autocomplete="off" disabled /></td>
                       </tr>
                     </tbody>
                   </table>
-                 <input class="btn btn-block btn-round btn-d pull-right" type="submit" value="Submit Payment" />
+				<div style="margin-bottom: 10px;">*Internal Server Error: Credit card payment option unavailable*</div>
+				<div style="margin-bottom: 10px;"><input type="radio" checked="checked" id="male" name="gender" value="male">
+				  &nbsp;
+				<label for="male" style="font-size: 15px">Bank Transfer</label></div>
+                 <input class="btn btn-block btn-round btn-d pull-right" type="submit" value="Confirm order" />
 					</form>
                 </div>
               </div>
@@ -317,6 +243,8 @@
     JavaScripts
     =============================================
     -->
+	
+	<script src="cartkk.js"></script>
     <script src="assets/lib/jquery/dist/jquery.js"></script>
     <script src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="assets/lib/wow/dist/wow.js"></script>
