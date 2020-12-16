@@ -222,6 +222,7 @@ function displayCart() {
 	manageQuantity();
 }
 
+
 function deleteButtons() {
     let deleteButtons = document.querySelectorAll('.pr-remove i');
     let productName;
