@@ -2990,3 +2990,13 @@ Google map
   }
 }
 
+
+textarea {
+	max-width: 800px;
+	max-height: 150px;
+}
+
+.textareaone {
+	max-width: 200px;
+	max-height: 150px;
+}

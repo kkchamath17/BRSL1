@@ -113,103 +113,10 @@
           <div class="container">
             <div class="row">
               <div class="col-sm-6 col-sm-offset-3">
-                <h1 class="module-title font-alt">My Cart</h1>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-6">&nbsp;</div>
-              <div class="col-lg-6">&nbsp;</div>
-            </div>
-            <hr class="divider-w pt-20">
-            <div class="row products-container" id="stuff">
-              <div class="col-sm-12 product-header">
-                
-              </div>
-            </div>
-            <hr class="divider-w">
-            <div class="row mt-70">
-              <div class="col-sm-5 col-sm-offset-7" >
-                <div class="shop-Cart-totalbox" id="totz">
-                </div>
-              </div>
-              <div class="col-sm-5 col-sm-offset-7" >
-                <div class="shop-Cart-totalbox" id="delivery"></div>
-				  <h4 class="font-alt">Delivery Details</h4>
-                  <table class="table table-striped table-border checkout-table">
-                    <tbody>
-                      <tr>
-                        <th style="width: 50%;">Full Name :</th>
-                        <td><input id="name" type="text" value="" placeholder="Please Enter Name" autocomplete="on"/></td>
-                      </tr>
-                      <tr>
-                        <th>Mobile Number:</th>
-                        <td><input type="text" value="+94" size="2" disabled/> <input  type="tel" id="phone" size="14" pattern="[1-9]{0-9}{0-9}{0-9}{0-9}{0-9}{0-9}{0-9}[0-9]" maxlength="9" required="required" placeholder="712345678"/></td>
-                      </tr>
-						<tr>
-                        <th style="width: 50%;">Email :</th>
-                        <td><input id="email" type="text" value="" placeholder="Please Enter Email" autocomplete="on"/></td>
-                      </tr>
-						<tr>
-                        <th style="width: 50%;">City :</th>
-                        <td><input id="city" type="text" value="" placeholder="Please Enter City" autocomplete="on"/></td>
-                      </tr>
-						<tr>
-                        <th style="width: 50%;"><label for="cars">Province :</label></th>
-                        <td><select id="province" name="province">
-  <option value="Northern">Northern</option>
-  <option value="North Western">North Western</option>
-  <option value="Western">Western</option>
-  <option value="North Central">North Central</option>
-  <option value="Central">Central</option>
-  <option value="Sabaragamuwa">Sabaragamuwa</option>
-  <option value="Eastern">Eastern</option>
-  <option value="Uva">Uva</option>
-  <option value="Southern">Southern</option>
-</select></td>
-                      </tr>
-						<tr>
-                        <th>Zip Code :</th>
-                        <td><input  type="tel" id="zipcode" size="4" pattern="[0-9]{0-9}{0-9}{0-9}{0-9}" maxlength="5" value="" minlength="5" required="required" placeholder="00000"/></td>
-                      </tr>
-                      <tr class="shop-Cart-totalprice">
-                        <th>Address :</th>
-                        <td> <textarea class="textareaone" id="address" type="text" size="21" value="" autocomplete="off"> </textarea></td></tr>
-                    </tbody>
-						</table>
-              </div>
-            </div>
-            <div class="row mt-70">
-              <div class="col-sm-5 col-sm-offset-7">
-                <div class="shop-Cart-totalbox">
-                  <h4 class="font-alt">Payment details</h4>
-                  <table class="table table-striped table-border checkout-table">
-                    <tbody>
-                      <tr>
-                        <th style="width: 50%;">Card Number :</th>
-                        <td><input id="ccNo" type="text" value="" autocomplete="off" disabled /></td>
-                      </tr>
-                      <tr>
-                        <th>Expiration Date (MM/YYYY):</th>
-                        <td><input id="expMonth" type="text" size="2" disabled /><span> / </span><input id="expYear" type="text" size="4" disabled /></td>
-                      </tr>
-                      <tr class="shop-Cart-totalprice">
-                        <th>CVC</th>
-                        <td> <input id="cvv" type="text" size="4" value="" autocomplete="off" disabled /></td>
-                      </tr>
-                    </tbody>
-                  </table>
-				<div style="margin-bottom: 10px;">*Internal Server Error: Credit card payment option unavailable*</div>
-				<div style="margin-bottom: 10px;"><input type="radio"  id="BT" name="PaymentType" value="Bank-Transfer">
-				  &nbsp;
-				<label for="BT" style="font-size: 15px">Bank Transfer</label></div>
-				<div style="margin-bottom: 10px;"><input type="radio"  id="COD" name="PaymentType" value="Cash-On-Delivery">
-				  &nbsp;
-				<label for="COD" style="font-size: 15px">Cash on Delivery</label></div>
-                 <input class="btn btn-block btn-round btn-d pull-right" type="button" onclick="sendEmail();" value="Confirm order" />
-                </div>
-              </div>
-            </div>
-          </div>
+                <h1 class="module-title font-alt">Thank you for ordering!</h1>
+				<p style="text-align: center;">Payement details will be sent to you via email and sms shortly.</p>
+				<a href="index.html"><p style="text-align: center; background-color: #C0C0C0; font-weight: 700;">BACK TO HOMEPAGE</p></a></div>
+            </div></div>
         </section>
         <section>
         <div class="module-small bg-dark">
@@ -289,6 +196,7 @@
     JavaScripts
     =============================================
     -->
+	
 	<script src="mail.js"></script>
 	<script src="https://smtpjs.com/v3/smtp.js"></script>
 	<script src="cartkk.js"></script>
