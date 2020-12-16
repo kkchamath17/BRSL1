@@ -70,6 +70,217 @@ for(let i=0; i < carts1.length; i++){
 
 }
 
+let carts3 = document.querySelectorAll('.add-cart3')
+
+let ruchedCropTops = [
+{
+	name: 'Ruched Crop Top Large',
+	tag: 'ruchedcroptoplarge',
+	price: 1700,
+	incart: 0
+},
+{
+	name: 'Ruched Crop Top Medium',
+	tag: 'ruchedcroptopmedium',
+	price: 1700,
+	incart: 0
+},
+{
+	name: 'Ruched Crop Top Small',
+	tag: 'ruchedcroptopsmall',
+	price: 1700,
+	incart: 0
+}
+]
+for(let i=0; i < carts3.length; i++){
+	carts3[i].addEventListener('click', ()=> {
+			cartNumbers(ruchedCropTops[i]);
+			totalCost(ruchedCropTops[i])
+})
+
+}
+
+let carts4 = document.querySelectorAll('.add-cart4')
+
+let geometricCropTops = [
+{
+	name: 'Geometric Crop Top Large',
+	tag: 'geometriccroptoplarge',
+	price: 1850,
+	incart: 0
+},
+{
+	name: 'Geometric Crop Top Medium',
+	tag: 'geometriccroptopmedium',
+	price: 1850,
+	incart: 0
+},
+{
+	name: 'Geometric Crop Top Small',
+	tag: 'geometriccroptopsmall',
+	price: 1850,
+	incart: 0
+}
+]
+for(let i=0; i < carts4.length; i++){
+	carts4[i].addEventListener('click', ()=> {
+			cartNumbers(geometricCropTops[i]);
+			totalCost(geometricCropTops[i])
+})
+
+}
+
+let carts5 = document.querySelectorAll('.add-cart5')
+
+let snakeSkinCropTops = [
+{
+	name: 'Snake Skin Crop Top Large',
+	tag: 'snakeskincroptoplarge',
+	price: 1700,
+	incart: 0
+},
+{
+	name: 'Snake Skin Crop Top Medium',
+	tag: 'snakeskincroptopmedium',
+	price: 1700,
+	incart: 0
+},
+{
+	name: 'Snake Skin Crop Top Small',
+	tag: 'snakeskincroptopsmall',
+	price: 1700,
+	incart: 0
+}
+]
+for(let i=0; i < carts5.length; i++){
+	carts5[i].addEventListener('click', ()=> {
+			cartNumbers(snakeSkinCropTops[i]);
+			totalCost(snakeSkinCropTops[i])
+})
+
+}
+
+let carts6 = document.querySelectorAll('.add-cart6')
+
+let oneShoulderCropTops = [
+{
+	name: 'One Shoulder Crop Top Large',
+	tag: 'oneshouldercroptoplarge',
+	price: 1700,
+	incart: 0
+},
+{
+	name: 'One Shoulder Crop Top Medium',
+	tag: 'oneshouldercroptopmedium',
+	price: 1700,
+	incart: 0
+},
+{
+	name: 'One Shoulder Crop Top Small',
+	tag: 'oneshouldercroptopsmall',
+	price: 1700,
+	incart: 0
+}
+]
+for(let i=0; i < carts6.length; i++){
+	carts6[i].addEventListener('click', ()=> {
+			cartNumbers(oneShoulderCropTops[i]);
+			totalCost(oneShoulderCropTops[i])
+})
+
+}
+
+let carts7 = document.querySelectorAll('.add-cart7')
+
+let geometricWhiteDress = [
+{
+	name: 'Geometric White Dress Large',
+	tag: 'geometricwhitedresslarge',
+	price: 2600,
+	incart: 0
+},
+{
+	name:  'Geometric White Dress Medium',
+	tag: 'geometricwhitedressmedium',
+	price: 2600,
+	incart: 0
+},
+{
+	name:  'Geometric White Dress Small',
+	tag: 'geometricwhitedresssmall',
+	price: 2600,
+	incart: 0
+}
+]
+for(let i=0; i < carts7.length; i++){
+	carts7[i].addEventListener('click', ()=> {
+			cartNumbers(geometricWhiteDress[i]);
+			totalCost(geometricWhiteDress[i])
+})
+
+}
+
+let carts8 = document.querySelectorAll('.add-cart8')
+
+let geometricBlackDress = [
+{
+	name: 'Geometric Black Dress Large',
+	tag: 'geometricblackdresslarge',
+	price: 2600,
+	incart: 0
+},
+{
+	name: 'Geometric Black Dress Medium',
+	tag: 'geometricblackdressmedium',
+	price: 2600,
+	incart: 0
+},
+{
+	name: 'Geometric Black Dress Small',
+	tag: 'geometricblackdresssmall',
+	price: 2600,
+	incart: 0
+}
+]
+for(let i=0; i < carts8.length; i++){
+	carts8[i].addEventListener('click', ()=> {
+			cartNumbers(geometricBlackDress[i]);
+			totalCost(geometricBlackDress[i])
+})
+
+}
+
+let carts9 = document.querySelectorAll('.add-cart9')
+
+let meshSleevedCropTops = [
+{
+	name: 'Mesh Sleeved Crop Top Large',
+	tag: 'meshsleevedcroptoplarge',
+	price: 2350,
+	incart: 0
+},
+{
+	name: 'Mesh Sleeved Crop Top Medium',
+	tag: 'meshsleevedcroptopmedium',
+	price: 2350,
+	incart: 0
+},
+{
+	name: 'Mesh Sleeved Crop Top Small',
+	tag: 'meshsleevedcroptopsmall',
+	price: 2350,
+	incart: 0
+}
+]
+for(let i=0; i < carts9.length; i++){
+	carts9[i].addEventListener('click', ()=> {
+			cartNumbers(meshSleevedCropTops[i]);
+			totalCost(meshSleevedCropTops[i])
+})
+
+}
+
+
 function onLoadCartNumbers(product, products1){
 	let productNumbers = localStorage.getItem('cartNumbers');
 	

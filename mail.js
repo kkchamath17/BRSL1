@@ -15,7 +15,7 @@ function sendEmail() {
   payment = document.getElementById('BT').value; 
 }
 	
-	let cartStuff = " Customer Details = " + name + "...." + number + "...." + city + "...." + province + "...." + zipcode + "...." + address + "...." + payment + "...." + ".............................................Date Ordered = " + dateOfOrder + "...................Total is = " + fullTotals + "............................................................Items are" + stuffInCart ;
+	let cartStuff = " Customer Details = " + name + "...." + number + "...."+ email+ "...." + city + "...." + province + "...." + zipcode + "...." + address + "...." + payment + "...." + ".............................................Date Ordered = " + dateOfOrder + "...................Total is = " + fullTotals + "............................................................Items are" + stuffInCart ;
 	if( stuffInCart && name && number && email && payment ) {
 	Email.send({
       SecureToken : '41bb8943-096d-4f7a-b3b6-c5f05a3cc2fe',
@@ -26,7 +26,7 @@ function sendEmail() {
 	
 	
     }).then(function(message) {
-      if(!alert("Order Sent"))document.location = "thankyoufororder.html"
+      if(!alert("Order sent, we will get in touch with you shortly."))document.location = "thankyoufororder.html"
     });
 	localStorage.clear();}
 }
