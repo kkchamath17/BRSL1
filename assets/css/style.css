@@ -3000,3 +3000,8 @@ textarea {
 	max-width: 200px;
 	max-height: 150px;
 }
+@media (max-width: 770px) {
+  .logopic {
+    display: none;
+  }
+}
