@@ -383,7 +383,7 @@ function displayCart() {
                       <th>Remove</th>
                     </tr>
                     <tr>
-                      <td width=10% class="hidden-xs"><a href="#"><img src="assets/images/products/${item.tag}.jpg" alt="Accessories Pack"/></a></td>
+                      <td width=10% class="hidden-xs"><a href="../allproducts/${item.tag}.html"><img src="assets/images/products/${item.tag}.jpg" alt="Accessories Pack"/></a></td>
                       <td width=30%>
                         <h4 class="product-title font-alt" id="productName">${item.name}</h5>
                       </td>

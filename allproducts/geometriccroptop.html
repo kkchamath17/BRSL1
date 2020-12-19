@@ -36,6 +36,7 @@
     
     -->
     <!-- Default stylesheets-->
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="../assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Template specific stylesheets-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -56,6 +57,9 @@
     <!-- Main stylesheet and color file-->
     <link href="../assets/css/style.css" rel="stylesheet">
     <link id="color-scheme" href="../assets/css/colors/default.css" rel="stylesheet">
+	 <style>
+.mySlides {display:none;}
+</style>
   </head>
   <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
     <main>
@@ -101,10 +105,10 @@
                           	<li><a href="../About Us.html#onee">FAQ</a></li>
 								<li><a href="../About Us.html#contact">Contact Us</a></li>
                         </ul>
-                      </li> &nbsp;&nbsp;
-				<!--<li class="active"><a class="active" href="../blog.html">Blog</a></li>-->
+                      </li>
+				<!--<li class="active"><a class="active" href="blog.html">Blog</a></li>-->
               <ul class="nav navbar-nav navbar-right">
-        <a href="../shop_checkout.html" style="font-size: 13px;"><li><button type="button" class="navbar-btn cart"><i class="glyphicon glyphicon-shopping-cart" style="margin-right: 3px; font-size:13px;" ></i>&nbsp;&nbsp;View Cart &nbsp;&nbsp;<span style="font-size: 16px; font-weight: bolder;">0</span></button>&nbsp;&nbsp;&nbsp;&nbsp;</li></a>
+        <a href="shop_checkout.html" style="font-size: 13px;"><li>&nbsp;&nbsp;<button type="button" class="navbar-btn cart"><i class="glyphicon glyphicon-shopping-cart" style="margin-right: 3px; font-size:13px;" ></i>&nbsp;&nbsp;View Cart &nbsp;&nbsp;<span style="font-size: 16px; font-weight: bolder;">0</span></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li></a>
 				</ul>
             </ul>
           </div>
@@ -114,7 +118,11 @@
         <section class="module">
           <div class="container">
             <div class="row">
-              <div class="col-sm-6 mb-sm-40"><a class="gallery" href="../assets/images/shop/product-7.jpg"><img src="../assets/images/shop/product-7.jpg" alt="Single Product Image"/></a>
+              <div class="col-sm-6 mb-sm-40"><span class="gallery"><img class="mySlides" src="../assets/images/shop/product-7.jpg" style="width:100%" alt="Single Product Image"/></span>
+				<span class="gallery"><img class="mySlides" src="../assets/images/shop/product-10.jpg" style="width:100%" alt="Single Product Image"/></span>
+				  
+				<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  				<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
               </div>
               <div class="col-sm-6">
                 <div class="row">
@@ -289,6 +297,7 @@
     JavaScripts
     =============================================
     -->
+	<script src="slideshowpics.js"></script>
 	<script src="../cartkk.js"></script>
     <script src="../assets/lib/jquery/dist/jquery.js"></script>
     <script src="../assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
