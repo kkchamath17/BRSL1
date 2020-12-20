@@ -3005,3 +3005,42 @@ textarea {
     display: none;
   }
 }
+
+@media (max-width: 700px) {
+  .smallOne {
+    font-size:5vw;
+  }
+}
+
+@media (min-width: 700px) {
+  .smallOne {
+    font-size:2vw;
+  }
+}
+
+@media (min-width: 700px) {
+  .mediumOne {
+    font-size:3vw;
+  }
+}
+
+@media (max-width: 700px) {
+  .mediumOne {
+    font-size:7vw;
+  }
+}
+
+
+@media (min-width: 700px) {
+  .bigOne {
+    font-size:9vw;
+  }
+}
+
+@media (max-width: 700px) {
+  .bigOne {
+    font-size:15vw;
+  }
+}
+
+

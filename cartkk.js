@@ -46,19 +46,19 @@ let products1 = [
 {
 	name: 'Female White T Shirt Large',
 	tag: 'femalewhitetshirtlarge',
-	price: 3000,
+	price: 950,
 	incart: 0
 },
 {
 	name: 'Female White T Shirt Medium',
 	tag: 'femalewhitetshirtmedium',
-	price: 2000,
+	price: 950,
 	incart: 0
 },
 {
 	name: 'Female White T Shirt Small',
 	tag: 'femalewhitetshirtsmall',
-	price: 100,
+	price: 950,
 	incart: 0
 }
 ]
@@ -69,6 +69,70 @@ for(let i=0; i < carts1.length; i++){
 })
 
 }
+
+let carts12 = document.querySelectorAll('.add-cart12')
+
+let products12 = [
+{
+	name: 'Female Pink T Shirt Large',
+	tag: 'femalepinktshirtlarge',
+	price: 1200,
+	incart: 0
+},
+{
+	name: 'Female Pink T Shirt Medium',
+	tag: 'femalepinktshirtmedium',
+	price: 1200,
+	incart: 0
+},
+{
+	name: 'Female Pink T Shirt Small',
+	tag: 'femalepinktshirtsmall',
+	price: 1200,
+	incart: 0
+}
+]
+for(let i=0; i < carts12.length; i++){
+	carts12[i].addEventListener('click', ()=> {
+			cartNumbers(products12[i]);
+			totalCost(products12[i])
+})
+
+}
+
+let carts13 = document.querySelectorAll('.add-cart13')
+
+let products13 = [
+{
+	name: 'Female Black T Shirt Large',
+	tag: 'femaleblacktshirtlarge',
+	price: 950,
+	incart: 0
+},
+{
+	name: 'Female Black T Shirt Medium',
+	tag: 'femaleblacktshirtmedium',
+	price: 950,
+	incart: 0
+},
+{
+	name: 'Female Black T Shirt Small',
+	tag: 'femaleblacktshirtsmall',
+	price: 950,
+	incart: 0
+}
+]
+for(let i=0; i < carts13.length; i++){
+	carts13[i].addEventListener('click', ()=> {
+			cartNumbers(products13[i]);
+			totalCost(products13[i])
+})
+
+}
+
+
+
+
 
 let carts3 = document.querySelectorAll('.add-cart3')
 
@@ -279,6 +343,98 @@ for(let i=0; i < carts9.length; i++){
 })
 
 }
+
+let carts10 = document.querySelectorAll('.add-cart10')
+
+let products10 = [
+{
+	name: 'Male White T Shirt Large',
+	tag: 'malewhitetshirtlarge',
+	price: 950,
+	incart: 0
+},
+{
+	name: 'Male White T Shirt Medium',
+	tag: 'malewhitetshirtmedium',
+	price: 950,
+	incart: 0
+},
+{
+	name: 'Male White T Shirt Small',
+	tag: 'malewhitetshirtsmall',
+	price: 950,
+	incart: 0
+}
+]
+for(let i=0; i < carts10.length; i++){
+	carts10[i].addEventListener('click', ()=> {
+			cartNumbers(products10[i]);
+			totalCost(products10[i])
+})
+
+}
+
+let carts11 = document.querySelectorAll('.add-cart11')
+
+let products11 = [
+{
+	name: 'Male Black T Shirt Large',
+	tag: 'maleblacktshirtlarge',
+	price: 950,
+	incart: 0
+},
+{
+	name: 'Male Black T Shirt Medium',
+	tag: 'maleblacktshirtmedium',
+	price: 950,
+	incart: 0
+},
+{
+	name: 'Male Black T Shirt Small',
+	tag: 'maleblacktshirtsmall',
+	price: 950,
+	incart: 0
+}
+]
+for(let i=0; i < carts11.length; i++){
+	carts11[i].addEventListener('click', ()=> {
+			cartNumbers(products11[i]);
+			totalCost(products11[i])
+})
+
+}
+
+let carts122 = document.querySelectorAll('.add-cart122')
+
+let products122 = [
+{
+	name: 'Male Gray T Shirt Large',
+	tag: 'malegraytshirtlarge',
+	price: 1200,
+	incart: 0
+},
+{
+	name: 'Male Gray T Shirt Medium',
+	tag: 'malegraytshirtmedium',
+	price: 1200,
+	incart: 0
+},
+{
+	name: 'Male Gray T Shirt Small',
+	tag: 'malegraytshirtsmall',
+	price: 1200,
+	incart: 0
+}
+]
+for(let i=0; i < carts122.length; i++){
+	carts122[i].addEventListener('click', ()=> {
+			cartNumbers(products122[i]);
+			totalCost(products122[i])
+})
+
+}
+
+
 
 
 function onLoadCartNumbers(product, products1){
