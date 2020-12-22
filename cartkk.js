@@ -4,31 +4,31 @@ let products = [
 {
 	name: 'Kitty Ear Headband',
 	tag: 'kittyearheadband',
-	price: 1000,
+	price: 350,
 	incart: 0
 },
 {
 	name: 'Bow Head Band',
 	tag: 'bowheadband',
-	price: 1000,
+	price: 350,
 	incart: 0
 },
 {
 	name: 'Teddy Bear Toy',
 	tag: 'teddybeartoy',
-	price: 1000,
+	price: 400,
 	incart: 0
 },	
 {
 	name: 'Unicorn Soft Toy',
 	tag: 'unicornsofttoy',
-	price: 1000,
+	price: 550,
 	incart: 0
 },
 {
 	name: 'Silly Putty',
 	tag: 'sillyputty',
-	price: 1000,
+	price: 700,
 	incart: 0
 }
 ]
@@ -573,11 +573,11 @@ function displayCart() {
                       </tr>
                       <tr>
                         <th>Shipping Total :</th>
-                        <td>LKR 200&nbsp;</td>
+                        <td>LKR 250&nbsp;</td>
                       </tr>
                       <tr class="shop-Cart-totalprice">
                         <th>Total :</th>
-                        <td style="font-weight: bold;">LKR ${cartCost + 200}&nbsp;</td>
+                        <td style="font-weight: bold;">LKR ${cartCost + 250}&nbsp;</td>
                       </tr>
                     </tbody>
                   </table>
